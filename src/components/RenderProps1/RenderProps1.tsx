@@ -10,6 +10,9 @@ type ChildComponentProps = {
 // React.FC means Function component. 
 // render() is a function that needs to return an JSX.Element.
 export const ChildComponent: React.FC<ChildComponentProps> = ({ render }) => {
+
+  // For this example, this value is part of the interal state of the component.
+
   const valueInChild = "JC 👨‍💻"
   return (
     <p>{render(valueInChild)}</p>
