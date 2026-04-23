@@ -1,6 +1,6 @@
 import classes from "./CompoundComponents.module.css";
 
-const Tabs = () => {
+const Tabs = ({ children }) => {
   return (
     <div className={classes.Tabs}>
     </div>
